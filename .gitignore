@@ -1,0 +1,5 @@
+*/*/*/Release/*
+*.vcxproj.user
+windows/MSVC/putty.sdf
+windows/MSVC/putty.opensdf
+windows/MSVC/ipch/*
