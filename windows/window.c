@@ -1369,7 +1369,7 @@ void connection_fatal(void *frontend, char *fmt, ...)
 		stuff = dupvprintf(fmt, ap);
 		va_end(ap);
 		sprintf(morestuff, "%.70s Fatal Error", appname);
-		MessageBox(hwnd, stuff, morestuff, MB_ICONERROR | MB_OK);
+		/*MessageBox(hwnd, stuff, morestuff, MB_ICONERROR | MB_OK); */
 		sfree(stuff);
 
 		if (cfg.close_on_exit == FORCE_ON)
@@ -5866,7 +5866,7 @@ void fatalbox(char *fmt, ...)
     stuff = dupvprintf(fmt, ap);
     va_end(ap);
     sprintf(morestuff, "%.70s Fatal Error", appname);
-    MessageBox(hwnd, stuff, morestuff, MB_ICONERROR | MB_OK);
+    /*MessageBox(hwnd, stuff, morestuff, MB_ICONERROR | MB_OK);*/
     sfree(stuff);
     cleanup_exit(1);
 }
@@ -5883,8 +5883,8 @@ void modalfatalbox(char *fmt, ...)
     stuff = dupvprintf(fmt, ap);
     va_end(ap);
     sprintf(morestuff, "%.70s Fatal Error", appname);
-    MessageBox(hwnd, stuff, morestuff,
-	       MB_SYSTEMMODAL | MB_ICONERROR | MB_OK);
+    /*MessageBox(hwnd, stuff, morestuff,
+	       MB_SYSTEMMODAL | MB_ICONERROR | MB_OK);*/
     sfree(stuff);
     cleanup_exit(1);
 }
