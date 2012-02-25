@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "putty", "putty\putty.vcxproj", "{250CD2B7-26CA-4C56-BFDC-1545A6746F52}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "puttytel", "puttytel\puttytel.vcxproj", "{B2FFC628-5663-45B2-BC97-5FBE9F76C1E7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pageant", "pageant\pageant.vcxproj", "{28674644-F1F6-402A-8034-96BAFFD17D56}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "plink", "plink\plink.vcxproj", "{F2E4C5EA-7145-4106-A145-AA47A4B29EF9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pscp", "pscp\pscp.vcxproj", "{16074C0C-21B6-4629-8473-E8F44B679F36}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "psftp", "psftp\psftp.vcxproj", "{44E18083-C936-4A36-80F1-73A7358F58EA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "puttygen", "puttygen\puttygen.vcxproj", "{FF778FEF-7DC5-4983-AF54-9F2BE46BD842}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cthelper", "cthelper\cthelper.vcxproj", "{F9DFEE59-3BB8-49E4-907A-B089A0B4E61A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{250CD2B7-26CA-4C56-BFDC-1545A6746F52}.Debug|Win32.ActiveCfg = Debug|Win32
+		{250CD2B7-26CA-4C56-BFDC-1545A6746F52}.Debug|Win32.Build.0 = Debug|Win32
+		{250CD2B7-26CA-4C56-BFDC-1545A6746F52}.Release|Win32.ActiveCfg = Release|Win32
+		{250CD2B7-26CA-4C56-BFDC-1545A6746F52}.Release|Win32.Build.0 = Release|Win32
+		{B2FFC628-5663-45B2-BC97-5FBE9F76C1E7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B2FFC628-5663-45B2-BC97-5FBE9F76C1E7}.Debug|Win32.Build.0 = Debug|Win32
+		{B2FFC628-5663-45B2-BC97-5FBE9F76C1E7}.Release|Win32.ActiveCfg = Release|Win32
+		{B2FFC628-5663-45B2-BC97-5FBE9F76C1E7}.Release|Win32.Build.0 = Release|Win32
+		{28674644-F1F6-402A-8034-96BAFFD17D56}.Debug|Win32.ActiveCfg = Debug|Win32
+		{28674644-F1F6-402A-8034-96BAFFD17D56}.Debug|Win32.Build.0 = Debug|Win32
+		{28674644-F1F6-402A-8034-96BAFFD17D56}.Release|Win32.ActiveCfg = Release|Win32
+		{28674644-F1F6-402A-8034-96BAFFD17D56}.Release|Win32.Build.0 = Release|Win32
+		{F2E4C5EA-7145-4106-A145-AA47A4B29EF9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F2E4C5EA-7145-4106-A145-AA47A4B29EF9}.Debug|Win32.Build.0 = Debug|Win32
+		{F2E4C5EA-7145-4106-A145-AA47A4B29EF9}.Release|Win32.ActiveCfg = Release|Win32
+		{F2E4C5EA-7145-4106-A145-AA47A4B29EF9}.Release|Win32.Build.0 = Release|Win32
+		{16074C0C-21B6-4629-8473-E8F44B679F36}.Debug|Win32.ActiveCfg = Debug|Win32
+		{16074C0C-21B6-4629-8473-E8F44B679F36}.Debug|Win32.Build.0 = Debug|Win32
+		{16074C0C-21B6-4629-8473-E8F44B679F36}.Release|Win32.ActiveCfg = Release|Win32
+		{16074C0C-21B6-4629-8473-E8F44B679F36}.Release|Win32.Build.0 = Release|Win32
+		{44E18083-C936-4A36-80F1-73A7358F58EA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{44E18083-C936-4A36-80F1-73A7358F58EA}.Debug|Win32.Build.0 = Debug|Win32
+		{44E18083-C936-4A36-80F1-73A7358F58EA}.Release|Win32.ActiveCfg = Release|Win32
+		{44E18083-C936-4A36-80F1-73A7358F58EA}.Release|Win32.Build.0 = Release|Win32
+		{FF778FEF-7DC5-4983-AF54-9F2BE46BD842}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FF778FEF-7DC5-4983-AF54-9F2BE46BD842}.Debug|Win32.Build.0 = Debug|Win32
+		{FF778FEF-7DC5-4983-AF54-9F2BE46BD842}.Release|Win32.ActiveCfg = Release|Win32
+		{FF778FEF-7DC5-4983-AF54-9F2BE46BD842}.Release|Win32.Build.0 = Release|Win32
+		{F9DFEE59-3BB8-49E4-907A-B089A0B4E61A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F9DFEE59-3BB8-49E4-907A-B089A0B4E61A}.Debug|Win32.Build.0 = Debug|Win32
+		{F9DFEE59-3BB8-49E4-907A-B089A0B4E61A}.Release|Win32.ActiveCfg = Release|Win32
+		{F9DFEE59-3BB8-49E4-907A-B089A0B4E61A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
