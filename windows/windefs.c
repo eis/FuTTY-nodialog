@@ -27,7 +27,7 @@ FontSpec platform_default_fontspec(const char *name)
 
 		ret.isbold = 1;
 		ret.charset = ANSI_CHARSET;
-		ret.height = 16;
+		ret.height = 12;
     } else {
 		ret.name[0] = '\0';
     }
