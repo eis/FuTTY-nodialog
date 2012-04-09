@@ -380,7 +380,8 @@ static void start_backend(void)
 	char *str = dupprintf("%s Error", appname);
 	sprintf(msg, "Unable to open connection to\n"
 		"%.800s\n" "%s", cfg_dest(&cfg), error);
-	MessageBox(NULL, msg, str, MB_ICONERROR | MB_OK);
+	/* commented out by slsh to remove dialog boxing */
+	/* MessageBox(NULL, msg, str, MB_ICONERROR | MB_OK); */
 	sfree(str);
 	exit(0);
     }
@@ -1369,6 +1370,7 @@ void connection_fatal(void *frontend, char *fmt, ...)
 		stuff = dupvprintf(fmt, ap);
 		va_end(ap);
 		sprintf(morestuff, "%.70s Fatal Error", appname);
+		/* commented out by slsh to remove dialog boxing */
 		/*MessageBox(hwnd, stuff, morestuff, MB_ICONERROR | MB_OK); */
 		sfree(stuff);
 
@@ -5866,6 +5868,7 @@ void fatalbox(char *fmt, ...)
     stuff = dupvprintf(fmt, ap);
     va_end(ap);
     sprintf(morestuff, "%.70s Fatal Error", appname);
+	/* commented out by slsh to remove dialog boxing */
     /*MessageBox(hwnd, stuff, morestuff, MB_ICONERROR | MB_OK);*/
     sfree(stuff);
     cleanup_exit(1);
@@ -5883,6 +5886,7 @@ void modalfatalbox(char *fmt, ...)
     stuff = dupvprintf(fmt, ap);
     va_end(ap);
     sprintf(morestuff, "%.70s Fatal Error", appname);
+	/* commented out by slsh to remove dialog boxing */
     /*MessageBox(hwnd, stuff, morestuff,
 	       MB_SYSTEMMODAL | MB_ICONERROR | MB_OK);*/
     sfree(stuff);
